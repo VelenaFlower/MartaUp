@@ -153,3 +153,41 @@ a {
     padding: 0 10px;
     opacity: .7;
 }
+
+/*advantages*/
+.advantages {
+    padding-top: 64px;
+    background: #f4f9fd url("../images/advantages-bg.svg") no-repeat right;
+}
+.advantages-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 76px;
+}
+.advantages-box:nth-child(even) {
+    flex-direction: row-reverse;
+    padding-bottom: 24px;
+}
+.advantages-box:nth-child(3) {
+    padding-bottom: 55px;
+}
+.advantages-box__info {
+    max-width: 455px;
+    background: url("../images/title-bg-1.svg") no-repeat 25px 17px;
+}
+.advantages-box__info--bg2 {
+    background: url("../images/title-bg-2.svg") no-repeat 20px 78px;
+}
+.advantages-box__info--bg3 {
+    background: url("../images/title-bg-3.svg") no-repeat 12px 50px;
+}
+.advantages-box__title {
+    padding: 68px 0 15px 48px;
+}
+.advantages-box__text {
+    padding-left: 48px;
+}
+.advantages-box__text p {
+    margin: 12px 0;
+}
